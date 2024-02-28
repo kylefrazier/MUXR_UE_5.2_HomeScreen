@@ -1,0 +1,78 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "FreeLiveLinkForStypeHFprotocol",
+	"Description": "Live Link support for the Stype UDP protocol",
+	"Category": "Other",
+	"CreatedBy": "Epic Games, Inc.",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "StypeLiveLink",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "StypeLiveLinkEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "VirtualCamera",
+			"Enabled": true
+		},
+		{
+			"Name": "CameraCalibration",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "CameraCalibrationCore",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "LiveLinkLens",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "LiveLinkCamera",
+			"Enabled": true,
+			"PlatformAllowList": [
+				"Win64"
+			],
+			"SupportedTargetPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}

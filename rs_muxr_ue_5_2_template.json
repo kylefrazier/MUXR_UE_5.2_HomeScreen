@@ -1,0 +1,19 @@
+{
+    "majorVersion": 2,
+    "minorVersion": 0,
+    "engineName": "Unreal Engine",
+    "engineVersion": "5.2.0",
+    "pluginVersion": "RS2.0-UE5.2-v0",
+    "info": "",
+    "channels": [
+        "0_Inner_Frustum_Cam",
+        "1_Outer_Frustum_Cam",
+        "2_Frontplate_Cam"
+    ],
+    "schema": [
+        {
+            "name": "Main",
+            "parameters": []
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "RS2.0-UE5.2-v0",
+	"FriendlyName": "Disguise RenderStream",
+	"Description": "Stream frames to disguise software",
+	"Category": "Media Players",
+	"CreatedBy": "Disguise",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"IsExperimentalVersion": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "RenderStream",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "RenderStreamEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "RenderStreamUncooked",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "nDisplay",
+			"Enabled": true
+		}
+	]
+}
